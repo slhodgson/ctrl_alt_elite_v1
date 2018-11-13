@@ -1,8 +1,30 @@
 <style>
+  body {
+    background-image: url("background.jpg");
+    background-size: cover;
+  }
   header {
     text-align: center;
-    background-image: url("banner.jpeg");
+    background-image: linear-gradient(grey, black);
+    opacity: 0.8;
     background-size: cover;
     color: white;
+    height: 150px;
+  }
+  h1 {
+    padding: 20px 0px 20px 0px;
+  }
+  li {
+   display: inline;
+   padding: 0px 20px 0px 20px;
+   font-size: 20px;
+  }
+  footer {
+    text-align: center;
+    color: white;
+    height: 100px;
+  }
+  h2 {
+    padding: 20px 0px 20px 0px;
   }
 </style>
