@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Home</title>
+    <link href='css/bootstrap.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body {
         background-image: url("background.jpg");
@@ -37,10 +39,10 @@
     <header>
       <h1 id='title'>Zero Gravity Resort</h1>
       <ul>
-        <li>Travel</li>
-        <li>Rooms</li>
-        <li>Restaurants</li>
-        <li>Activities</li>
+        <li><a href="travel_page.html">Travel</a></li>
+        <li><a href="room_page.html">Rooms</a></li>
+        <li><a href="restaurant_page.html">Restaurants</a></li>
+        <li><a href="activities_page.html">Activities</a></li>
       </ul>
     </header>
     <div class='right'>
@@ -60,12 +62,26 @@
       <p>Find out about fun activities in space</p>
     </div>
     <footer>
-      <h2>Contact Us</h2>
+      <h3>Contact Us</h3>
       <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Email</li>
-          <li>Youtube</li>
+          <li><a href="https://www.facebook.com/"><img src="facebook-128.png" width="50" height="50"></img></a></li>
+          <li><a href="https://twitter.com"><img src="twitter.png" width="50" height="50"></img></a></li>
+          <li><a href="https://youtube.com"><img src="youtube.png" width="50" height="50"></img></a></li>
       </ul>
+      <div class="row">
+        <div class="col-sm-4">
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-6">
+          <textarea class="form-control" rows="3" placeholder="input query here"></textarea>
+        </div>
+        <div class="col-sm-2">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
     </footer>
   </body>
