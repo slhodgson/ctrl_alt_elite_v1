@@ -8,6 +8,7 @@
       body {
         background-image: url("images/background.jpg");
         background-size: cover;
+        color: white;
       }
       header {
         text-align: center;
@@ -27,25 +28,29 @@
        color: white;
       }
       a {
-        color: purple;
+        color: white;
       }
       footer {
         text-align: center;
         color: white;
         height: 100px;
+        margin: 40px 0px 20px 0px;
       }
       h2 {
         padding: 20px 0px 20px 0px;
       }
-      #contact {
-        width: 400px;
-        align-content: center;
+      .option {
+        margin: 10px 0px 10px 0px;
+
+      }
+      img.img-rounded {
+        box-shadow: 0px 0px 5px #fff;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1 id='title'>Zero Gravity Resort</h1>
+      <h1 id='title'><a href="first_page.html">Zero Gravity Resort</a></h1>
       <ul>
         <li><a href="travel_page.html">Travel</a></li>
         <li><a href="room_page.html">Rooms</a></li>
@@ -53,46 +58,94 @@
         <li><a href="activities_page.html">Activities</a></li>
       </ul>
     </header>
+    <div class='container'>
+
+    <div class="option">
     <div class="text-right">
-      <h3><strong>Travel</strong></h3>
-      <p>Find about our exclusive rocket</p>
-      <img class="img-rounded" src="images/travel_rocket.jpg" width="400" height="150">
-    </div>
-    <div class="text-left">
-      <h3><strong>Rooms</strong></h3>
-      <p>Find about our exclusive room packages</p>
-      <img class="img-rounded" src="images/Room 2.jpeg" width="400" height="150">
-    </div>
-    <div class="text-right">
-      <h3><strong>Restaurants</strong></h3>
-      <p>Find out about space food</p>
-        <img class="img-rounded"src="images/earth_restaurant.jpg" width="400" height="150">
-    </div>
-    <div  class="text-left">
-      <h3><strong>Activities</strong></h3>
-      <p>Find out about fun activities in space</p>
-        <img class="img-rounded" src="images/activity_gravity.jpg" width="400" height="150">
-    </div>
-    <div id='contact'>
-        <form>
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-          </div>
-          <div class="form-group">
-        <textarea class="form-control" rows="3" placeholder="input query here"></textarea>
+      <div class="row">
+      <div class="col-xs-6">
+        <h3><strong>Travel</strong></h3>
+        <p>Find about our exclusive rocket</p>
       </div>
-        <div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </div>
-      </form>
+      <div class="col-xs-6">
+        <img class="img-rounded" src="images/travel_rocket.jpg" width="500" height="300">
+      </div>
+      </div>
+    </div>
     </div>
 
-    <footer>
+    <div class="option">
+    <div class="text-left">
+      <div class="row">
+        <div class="col-xs-6">
+          <img class="img-rounded" src="images/room_2.jpg" width="500" height="300">
+        </div>
+        <div class="col-xs-6">
+          <h3><strong>Rooms</strong></h3>
+          <p>Find about our exclusive room packages</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="option">
+    <div class="text-right">
+      <div class="row">
+        <div class="col-xs-6">
+          <h3><strong>Restaurants</strong></h3>
+          <p>Find out about space food</p>
+        </div>
+        <div class="col-xs-6">
+          <img class="img-rounded"src="images/earth_restaurant.jpg" width="500" height="300">
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="option">
+    <div class="text-left">
+      <div class="row">
+        <div class="col-xs-6">
+          <img class="img-rounded" src="images/activity_gravity.jpg" width="500" height="300">
+        </div>
+        <div class="col-xs-6">
+          <h3><strong>Activities</strong></h3>
+          <p>Find out about fun activities in space</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="text-center">
+      <div class="rows">
+        <div class="col-xs-4">
+        </div>
+        <div class="col-xs-4">
+          <h3>Enquire via email</h3>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="3" placeholder="Input query here"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </form>
+        </div>
+        <div class="col-xs-4">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
       <h3><strong>Contact Us</strong></h3>
       <ul>
           <li><a href="https://www.facebook.com/"><img src="images/facebook-128.png" width="50" height="50"></img></a></li>
           <li><a href="https://twitter.com"><img src="images/twitter.png" width="50" height="50"></img></a></li>
           <li><a href="https://youtube.com"><img src="images/youtube.png" width="50" height="50"></img></a></li>
       </ul>
-    </footer>
-  </body>
+  </footer>
+
+</body>
