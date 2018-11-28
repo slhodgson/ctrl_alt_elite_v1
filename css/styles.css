@@ -17,7 +17,7 @@ h1 {
 li {
  display: inline;
  padding: 0px 20px 0px 20px;
- font-size: 30px;
+ font-size: 25px;
  color: white;
 }
 p {
@@ -64,9 +64,4 @@ img.img-rounded {
   top: 0;
   left: 0;
   min-height: 300px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
 }
