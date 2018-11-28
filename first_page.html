@@ -155,7 +155,7 @@
                 <textarea class="form-control" rows="3" placeholder="Input query here"></textarea>
               </div>
               <div>
-                <button type="submit" class="btn btn-default" onclick="EnquirySent()">Submit</button>
+                <button type="button" class="btn btn-default" onclick="EnquirySent()">Submit</button>
                 <p id="response"></p>
               </div>
             </form>
@@ -175,7 +175,7 @@
   </footer>
   <script>
     function EnquirySent() {
-    document.getElementById("response").innerHTML = "Thank you for your enquiry - we will get back to you soon!";
-    }
+     $('#response').html("Thank you for your enquiry - we will get back to you soon!");
+   }
   </script>
 </body>
